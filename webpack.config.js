@@ -2,7 +2,7 @@ const path = require('path');   //node的path模块，解析路径
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-//单独提取css文件
+//单独提取css文件111
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
     filename: "[name].[contenthash].css",
