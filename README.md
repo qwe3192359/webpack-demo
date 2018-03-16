@@ -28,3 +28,8 @@
 * html-webpack-plugin：生成html文件
 * extract-text-webpack-plugin单独提取css文件
 * uglifyjs-webpack-plugin压缩js
+
+### 项目目录说明
+* app 源文件
+* public 生成文件
+* .gitignore git忽略文件
