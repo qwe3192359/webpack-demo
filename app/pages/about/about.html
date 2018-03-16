@@ -5,7 +5,9 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
 </head>
 <body>
-<img src="lo.jpg" data-src="lo.jpg">
-
+<img src="../../assets/images/lo1.jpg" data-src="lo.jpg">
+<%= require('html-loader!../template/head.html')  %>
+<div class="text-333">关于我们</div>
+<%= require('html-loader!../template/foot.html')  %>
 </body>
 </html>

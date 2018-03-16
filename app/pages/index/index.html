@@ -6,5 +6,8 @@
 </head>
 <body>
 <%= htmlWebpackPlugin.options.name %>
+<%= require('html-loader!../template/head.html')  %>
+<div class="bg-red">首页</div>
+<%= require('html-loader!../template/foot.html')  %>
 </body>
 </html>
